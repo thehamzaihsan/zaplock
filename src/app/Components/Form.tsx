@@ -79,7 +79,7 @@ function Form({ setFilled }: FormProps) {
         value={department}
         onChange={(e) => setDepartment(e.target.value)}
       >
-        <option disabled>What's your department!</option>
+        <option disabled>Whats your department!</option>
         <option>BSCS</option>
         <option>BBA</option>
       </select>
